@@ -111,67 +111,65 @@
           </div>
         </section>
         <section class="reservation" id="reservation">
-          <div class="reservation__container">
-            <form class="reservation__form">
-              <h2 class="reservation__title">Book a table</h2>
-              <fieldset class="reservation__fieldset">
-                <label for="name" class="reservation__label">Name *</label>
-                <input
-                  type="text"
-                  class="reservation__input"
-                  id="name"
-                  placeholder="Name Surname"
-                  required
-                />
-                <label for="number-of-guest" class="reservation__label"
-                  >Number of guests *</label
-                >
-                <input
-                  type="number"
-                  min="1"
-                  max="8"
-                  class="reservation__input"
-                  id="number-of-guest"
-                  placeholder="1-8"
-                  required
-                />
-                <label for="date-time" class="reservation__label"
-                  >Date & time *</label
-                >
-                <input
-                  type="datetime-local"
-                  class="reservation__input"
-                  id="date-time"
-                  required
-                />
-                <label for="email-address" class="reservation__label"
-                  >Your email *</label
-                >
-                <input
-                  type="email"
-                  class="reservation__input"
-                  id="email-address"
-                  placeholder="email@email.com"
-                  required
-                />
-              </fieldset>
-              <button class="reservation__input reservation__input_button">
-                Book a table
-              </button>
-              <div class="checkbox">
-                <input
-                  type="checkbox"
-                  class="reservation__input reservation__input_checkbox"
-                  name="i_agree_terms"
-                  id="i_agree_terms"
-                  required
-                />
-                <label class="reservation__label" for="i_agree_terms"
-                  >I agree with the terms of use</label
-                >
-              </div>
-            </form>
-          </div>
+          <form class="reservation__form">
+            <h2 class="reservation__title">Book a table</h2>
+            <fieldset class="reservation__fieldset">
+              <label for="name" class="reservation__label">Name *</label>
+              <input
+                type="text"
+                class="reservation__input"
+                id="name"
+                placeholder="Name Surname"
+                required
+              />
+              <label for="number-of-guest" class="reservation__label"
+                >Number of guests *</label
+              >
+              <input
+                type="number"
+                min="1"
+                max="8"
+                class="reservation__input"
+                id="number-of-guest"
+                placeholder="1-8"
+                required
+              />
+              <label for="date-time" class="reservation__label"
+                >Date & time *</label
+              >
+              <input
+                type="datetime-local"
+                class="reservation__input"
+                id="date-time"
+                required
+              />
+              <label for="email-address" class="reservation__label"
+                >Your email *</label
+              >
+              <input
+                type="email"
+                class="reservation__input"
+                id="email-address"
+                placeholder="email@email.com"
+                required
+              />
+            </fieldset>
+            <button class="reservation__input reservation__input_button">
+              Book a table
+            </button>
+            <div class="checkbox">
+              <input
+                type="checkbox"
+                class="reservation__input reservation__input_checkbox"
+                name="i_agree_terms"
+                id="i_agree_terms"
+                required
+              />
+              <label class="reservation__label" for="i_agree_terms"
+                >I agree with the terms of use</label
+              >
+            </div>
+          </form>
         </section>
         <section class="menu" id="menu"></section>
         <section class="contact" id="contacts"></section>
