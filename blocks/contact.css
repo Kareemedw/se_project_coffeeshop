@@ -1,2 +1,39 @@
-.contacts {
+.contact {
+  background-color: #0a2850;
+  height: 500px;
+  padding: 100px 80px 173px;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.contact__about-title {
+  max-width: 251px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  z-index: 1;
+}
+
+.contact__about-content {
+  max-width: 660px;
+  font-family: "Noto Serif";
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 19px;
+  gap: 20px;
+}
+
+.contact__about-circle {
+  width: 426px;
+  height: 426px;
+  background-color: #2f80ed;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -129px;
 }
