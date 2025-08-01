@@ -112,59 +112,55 @@
         <section class="reservation" id="reservation">
           <form class="reservation__form form">
             <h2 class="reservation__title">Book a table</h2>
-            <fieldset class="reservation__fieldset">
-              <label for="name" class="reservation__label">Name *</label>
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">Name *</label>
               <input
                 type="text"
-                class="reservation__input"
+                class="form__input"
                 id="name"
                 placeholder="Name Surname"
                 required
               />
-              <label for="number-of-guest" class="reservation__label"
+              <label for="number-of-guest" class="form__label"
                 >Number of guests *</label
               >
               <input
                 type="number"
                 min="1"
                 max="8"
-                class="reservation__input"
+                class="form__input"
                 id="number-of-guest"
                 placeholder="1-8"
                 required
               />
-              <label for="date-time" class="reservation__label"
-                >Date & time *</label
-              >
+              <label for="date-time" class="form__label">Date & time *</label>
               <input
                 type="datetime-local"
-                class="reservation__input"
+                class="form__input"
                 id="date-time"
                 required
               />
-              <label for="email-address" class="reservation__label"
+              <label for="email-address" class="form__label"
                 >Your email *</label
               >
               <input
                 type="email"
-                class="reservation__input"
+                class="form__input"
                 id="email-address"
                 placeholder="email@email.com"
                 required
               />
             </fieldset>
-            <button class="reservation__input reservation__input_button">
-              Book a table
-            </button>
-            <div class="checkbox">
+            <button class="form__input form__input_button">Book a table</button>
+            <div class="form__checkbox">
               <input
                 type="checkbox"
-                class="reservation__input reservation__input_checkbox"
+                class="form__input form__input_checkbox"
                 name="i_agree_terms"
                 id="i_agree_terms"
                 required
               />
-              <label class="reservation__label" for="i_agree_terms"
+              <label class="form__label" for="i_agree_terms"
                 >I agree with the terms of use</label
               >
             </div>
@@ -252,26 +248,24 @@
             </ul>
           </div>
         </section>
-        <section class="contact" id="contacts">
-          <h2 class="contact__about-title">About the coffee shop</h2>
-          <div class="contact__about-content">
-            <p class="contact__about-content contact__about-content_paragraph">
+        <section class="about" id="contacts">
+          <h2 class="about__title">About the coffee shop</h2>
+          <div class="about__content">
+            <p class="about__content about__content_paragraph">
               Our coffee shop is located in the Triple Peaks Library. It
               features 6 tables and free WiFi.
             </p>
-            <p class="contact__about-content contact__about-content_paragraph">
+            <p class="about__content about__content_paragraph">
               Our main mission is keeping guests cozy and energized.
             </p>
-            <p class="contact__about-content contact__about-content_paragraph">
+            <p class="about__content about__content_paragraph">
               Besides that, we try to reduce our environmental impact &ndash; so
               we don't sell single-use cups. But you can buy one of our reusable
               cups!
             </p>
           </div>
-          <div class="contact__about-circle"></div>
-          <div
-            class="contact__about-circle contact__about-circle_animation_blurred"
-          ></div>
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
       <footer class="footer">

@@ -1,4 +1,4 @@
-.contact {
+.about {
   background-color: #0a2850;
   height: 500px;
   padding: 100px 80px 173px;
@@ -10,7 +10,7 @@
   overflow: hidden;
 }
 
-.contact__about-title {
+.about__title {
   max-width: 251px;
   font-family: "Inter";
   font-weight: 500;
@@ -19,7 +19,7 @@
   z-index: 1;
 }
 
-.contact__about-content {
+.about__content {
   max-width: 660px;
   font-family: "Noto Serif";
   font-size: 20px;
@@ -28,7 +28,7 @@
   gap: 20px;
 }
 
-.contact__about-circle {
+.about__circle {
   width: 426px;
   height: 426px;
   background-color: #2f80ed;
@@ -38,7 +38,7 @@
   left: -129px;
 }
 
-.contact__about-circle_animation_blurred {
+.about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out 0s infinite;
 }
 
