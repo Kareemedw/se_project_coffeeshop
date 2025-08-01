@@ -77,6 +77,21 @@
   border-radius: 4px;
   border: none;
   padding: 20px 0;
+  transition: background-color 0.5s;
+}
+
+.reservation__input_button:hover {
+  background-color: #3f96f3;
+}
+
+@keyframes transition {
+  from {
+    opacity: 100%;
+  }
+
+  to {
+    opacity: 70%;
+  }
 }
 
 .reservation__input_checkbox {

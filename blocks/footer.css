@@ -9,22 +9,21 @@
 
 .footer__columns {
   display: flex;
+  justify-content: space-between;
 }
 
-.footer__column_content_hours {
-  list-style: none;
-  margin-left: auto;
-}
-
-.footer__column_content_social {
-  list-style: none;
-  margin-left: 80px;
+.footer__column {
 }
 
 .footer__logo {
   list-style: none;
   width: 105px;
   height: 39px;
+}
+
+.footer__column_content_social {
+  list-style: none;
+  margin-left: 80px;
 }
 
 .footer__list {
@@ -59,6 +58,7 @@
 
 .footer__column-link:hover {
   color: #c1c1c1;
+  transition: 0.3s ease-in;
 }
 
 .footer__social-icon {
