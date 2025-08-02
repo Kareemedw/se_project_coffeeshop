@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+There is a images/ directory and all referenced image files (backgrounds, logos, icons). Without this directory background images and icons will not load, breaking the layout and navigation visuals.
