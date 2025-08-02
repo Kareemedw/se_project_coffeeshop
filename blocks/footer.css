@@ -1,5 +1,5 @@
 .footer {
-  background-color: #0a2850;
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: #fff;
   box-sizing: border-box;
   padding: 60px 80px;
@@ -57,8 +57,8 @@
 }
 
 .footer__column-link:hover {
-  color: #c1c1c1;
-  transition: 0.3s ease-in;
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in;
 }
 
 .footer__social-icon {

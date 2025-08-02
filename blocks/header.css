@@ -72,7 +72,7 @@
   color: #6f6f6f;
 }
 
-.header__footer_time {
+.header__footer-time {
   display: flex;
   flex-direction: column;
 }

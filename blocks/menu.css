@@ -32,13 +32,14 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  max-width: 780px;
+  max-width: 900px;
   margin: 0 0 100px;
-  display: contents;
+  display: inline-block;
+  text-align: center;
 }
 
 .menu__subtitle_second-line {
-  display: block;
+  margin: 0;
 }
 
 .menu__card {
