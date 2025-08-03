@@ -28,7 +28,7 @@
   font-family: "Inter";
   font-weight: 500;
   color: #000000;
-  font-family: "Noto Serif" "Times New Roman", serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   color: #3f96f3;
 }
@@ -38,7 +38,7 @@
   margin: 28px 0 0;
   font-size: 20px;
   line-height: 30px;
-  font-family: "Noto Serif" "Times New Roman", serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
 }
 
 .header__image {
@@ -55,7 +55,7 @@
   align-items: flex-end;
   justify-content: space-between;
   box-sizing: border-box;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
