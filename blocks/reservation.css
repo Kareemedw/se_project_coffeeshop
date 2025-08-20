@@ -25,3 +25,6 @@
   line-height: 52px;
   margin: 0;
 }
+
+@media screen and (max-width: 630px) {
+}
